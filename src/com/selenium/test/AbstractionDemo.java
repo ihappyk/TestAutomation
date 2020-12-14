@@ -18,5 +18,6 @@ public class AbstractionDemo {
 		driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("********");
 		
 		driver.findElement(By.xpath("//button[@name='login']")).click();
+
 	}
 }
