@@ -38,7 +38,7 @@ public class MyFirstTest {
 		
 		// Using Xpath -> tagName[attribute='value']
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("santhoshks2312@gmail.com");;
-		driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("Rashmisan");
+		driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("******");
 		
 		driver.findElement(By.xpath("//button[@name='login']")).click();
 		System.out.println("Login Successfully");
